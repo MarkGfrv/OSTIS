@@ -33,6 +33,10 @@ public:
 
   SC_PROPERTY(Keynode("empty_set"), ForceCreate)
   static ScAddr empty_set;
+  
+  SC_PROPERTY(Keynode("question_say_hello"), ForceCreate) //new func//
+  static ScAddr question_say_hello;
+  
 };
 
 }  // namespace exampleModule
